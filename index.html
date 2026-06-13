@@ -1,39 +1,187 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Página</title>
+  <title>AI Video Studio — Create & Publish AI Videos Automatically</title>
+  <meta name="description" content="AI Video Studio generates videos with artificial intelligence and publishes them automatically to your own social media accounts, including TikTok." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Navbar -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-logo">🎬</span>
+        AI Video Studio
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#integrations">Integrations</a>
+        <a href="#contact" class="nav-cta">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
   <header class="hero">
-    <h1>Olá, mundo 👋</h1>
-    <p>Esta é a minha página publicada com GitHub Pages.</p>
+    <div class="container">
+      <span class="badge"><span class="dot"></span> AI-powered video automation</span>
+      <h1>Create videos with AI and<br /><span class="grad">publish them automatically</span></h1>
+      <p class="lead">
+        AI Video Studio turns your ideas into ready-to-post videos and publishes
+        them directly to your own social media accounts — including TikTok —
+        with full control over captions, scheduling and privacy.
+      </p>
+      <div class="cta-row">
+        <a href="#how" class="btn btn-primary">See how it works →</a>
+        <a href="#features" class="btn btn-ghost">Explore features</a>
+      </div>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="card">
-      <h2>Comece por aqui</h2>
-      <p>
-        Edite o arquivo <code>index.html</code> para mudar este conteúdo
-        e o <code>style.css</code> para mudar o visual. Depois é só salvar,
-        dar <code>git commit</code> e <code>git push</code> — a página
-        atualiza sozinha em alguns segundos.
-      </p>
-    </section>
+  <!-- Features -->
+  <section id="features">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Features</div>
+        <h2>Everything you need to go from idea to published</h2>
+        <p>A complete pipeline that handles generation, editing and distribution of your video content.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon">🤖</div>
+          <h3>AI Video Generation</h3>
+          <p>Generate complete videos from text using AI — including narration, visuals and synchronized captions.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🚀</div>
+          <h3>Automatic Publishing</h3>
+          <p>Publish finished videos directly to your connected TikTok account through the official Content Posting API.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🔐</div>
+          <h3>Secure Account Connection</h3>
+          <p>Connect your account safely with TikTok's official login. We never see or store your password.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌍</div>
+          <h3>Multi-language Support</h3>
+          <p>Produce and caption content in dozens of languages to reach audiences across regions.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🗓️</div>
+          <h3>Scheduling & Queue</h3>
+          <p>Queue videos and let them publish at the right time, with manual approval whenever you prefer.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>Content Control</h3>
+          <p>Set titles, captions and privacy settings for every post before it goes live.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="card">
-      <h2>Links</h2>
-      <ul class="links">
-        <li><a href="#">Adicione seu link aqui</a></li>
-        <li><a href="#">E outro aqui</a></li>
-      </ul>
-    </section>
-  </main>
+  <!-- How it works -->
+  <section id="how" style="background: var(--bg-soft); border-block: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">How it works</div>
+        <h2>Three simple steps</h2>
+        <p>From connecting your account to publishing — you stay in control the entire time.</p>
+      </div>
+      <div class="grid" style="max-width: 760px; margin: 0 auto; gap: 2rem;">
+        <div class="step">
+          <div class="num">1</div>
+          <div>
+            <h3>Connect your TikTok account</h3>
+            <p>Authorize AI Video Studio through TikTok's official, secure login flow. You can revoke access anytime.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <div>
+            <h3>Generate or upload your video</h3>
+            <p>Create a video with AI or upload your own, then set the caption, title and privacy options.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <div>
+            <h3>Publish to your account</h3>
+            <p>With your confirmation, the video is published directly to your own TikTok account.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <footer class="footer">
-    <p>Feito com ❤️ e GitHub Pages</p>
+  <!-- Integrations -->
+  <section id="integrations">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Integrations</div>
+        <h2>Built to work with the platforms you use</h2>
+        <p>AI Video Studio connects to social platforms through their official APIs.</p>
+      </div>
+      <div class="pills">
+        <span class="pill">🎵 TikTok</span>
+        <span class="pill">▶️ YouTube</span>
+        <span class="pill">📸 Instagram</span>
+        <span class="pill">🤖 AI Generation</span>
+        <span class="pill">🗣️ Text-to-Speech</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA band -->
+  <section>
+    <div class="container">
+      <div class="cta-band">
+        <h2>Ready to automate your video workflow?</h2>
+        <p>Spend less time posting and more time creating. AI Video Studio handles the rest.</p>
+        <a href="#contact" class="btn btn-primary">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div style="max-width: 320px;">
+          <div class="brand"><span class="brand-logo">🎬</span> AI Video Studio</div>
+          <p style="color: var(--muted); font-size: 0.95rem;">
+            Create videos with AI and publish them automatically to your own social media accounts.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#integrations">Integrations</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="terms.html">Terms of Service</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:luisantoniowebalobato@gmail.com">luisantoniowebalobato@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 AI Video Studio. All rights reserved.
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>
